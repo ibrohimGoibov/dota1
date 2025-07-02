@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Bangers&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Uncial+Antiqua&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Uncial Antiqua", system-ui;
+  background-color: black;
+}
+
+.st {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  margin-left: 30px;
+  font-size: 20px;
+  color: white;
+}
+.st select {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+.st .fl {
+  display: flex;
+  gap: 10px;
+  margin-left: 0;
+  align-items: center;
+}
+.st .fl button {
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border: 2px solid grey;
+  border-radius: 5px;
+  color: white;
+}
+.st .fl .j p {
+  text-align: end;
+}
+.st img {
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.142);
+}
+.st .num1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.st .num1 p:hover {
+  text-shadow: 0px 0px 15px white;
+}
+
+.txt1 {
+  position: absolute;
+  top: 150px;
+  padding: 0px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.txt1 h1 {
+  font-size: 65px;
+  width: 500px;
+}
+.txt1 .p1 {
+  color: grey;
+  font-size: 20px;
+}
+.txt1 p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.txt1 .line {
+  width: 100px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: orange;
+  margin-top: 10px;
+}
+.txt1 button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border: 2px solid grey;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px 40px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.video {
+  width: 100%;
+}
+
+.flimg {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flimg img {
+  width: 30%;
+  margin-top: 50px;
+  margin-top: -45px;
+  box-shadow: 0px 0px 30px;
+}
+
+.sad {
+  background-color: black;
+  height: 200px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 30px black;
+}
+
+.back3 {
+  background-image: url(./imgdota.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 70px;
+  box-shadow: 0px 0px 30px;
+  text-align: center;
+  border: 4px solid black;
+  box-shadow: 0px 0px 50px;
+}
+.back3 .txt h2 {
+  font-size: 60px;
+  color: darkgray;
+  margin-top: 100px;
+  margin-top: 350px;
+}
+.back3 .txt h1 {
+  color: rgb(245, 230, 212);
+  font-size: 85px;
+  margin-top: 50px;
+}
+
+.cent {
+  color: white;
+  text-align: center;
+}
+.cent .line {
+  width: 100px;
+  height: 5px;
+  background-color: red;
+  margin: auto;
+  border-radius: 50px;
+}
+.cent p {
+  font-size: 22px;
+  color: rgb(245, 230, 212);
+  margin-top: 20px;
+}
+.cent button {
+  padding: 15px 60px;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid darkgrey;
+  color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.cent button:hover {
+  border-color: red;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-top: 55px;
+}
+
+.back {
+  background-image: url(./Dota2_DragonKnight2-1536x864.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.back .p3 {
+  color: rgba(255, 255, 255, 0);
+  margin-top: 110px;
+}
+.back .cent1 h1 {
+  font-size: 105px;
+  color: rgb(245, 230, 212);
+}
+.back .cent1 h2 {
+  font-size: 40px;
+  color: darkgrey;
+}
+.back button {
+  padding: 15px 60px;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid darkgrey;
+  color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.back button:hover {
+  border-color: red;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-top: 55px;
+}
+
+.img1 {
+  display: flex;
+  gap: 15px;
+}
+.img1 img {
+  width: 300px;
+}
+
+.b {
+  margin-top: 15px;
+}
+.b img:hover {
+  transform: scale(1.1);
+  transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.b img {
+  transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.black {
+  width: 100px;
+  height: 1000px;
+  background-color: black;
+  box-shadow: 0px 10px 120px black;
+  position: absolute;
+  top: 3200px;
+}
+
+.back1 {
+  width: 100px;
+  height: 830px;
+  background-color: black;
+  box-shadow: 0px 10px 120px black;
+  position: absolute;
+  top: 3200px;
+  left: 93.4%;
+}
+
+.back2 {
+  background-image: url(./pole.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: black;
+}
+.back2 .y {
+  color: rgba(255, 255, 255, 0);
+}
+.back2 .pr {
+  position: absolute;
+  top: 4200px;
+}
+.back2 .pr img {
+  width: 400px;
+}
+.back2 .pa {
+  position: absolute;
+  top: 4350px;
+  left: 1036px;
+}
+.back2 .lo h2 {
+  font-size: 40px;
+  color: darkgray;
+}
+.back2 .lo h1 {
+  font-size: 75px;
+  color: rgb(245, 230, 212);
+}
+
+.last1 {
+  background-image: url(./809a228eab0ecbe2ab5951433d4a82fc.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  background-position: center;
+}
+.last1 .p2 {
+  color: rgba(255, 255, 255, 0);
+}
+
+.text10 {
+  position: absolute;
+  left: 1140px;
+  top: 5500px;
+}
+.text10 h2 {
+  font-size: 40px;
+  color: darkgray;
+  text-shadow: 0px 0px 15px white;
+}
+.text10 h1 {
+  font-size: 80px;
+  color: rgb(231, 228, 228);
+  text-shadow: 0px 0px 15px white;
+}
+.text10 .line {
+  width: 150px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50px;
+}
+.text10 button {
+  padding: 15px 60px;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid darkgrey;
+  color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.text10 button:hover {
+  border-color: red;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-top: 55px;
+}
+
+.last {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.last .vi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.last p {
+  font-size: 15px;
+  width: 700px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 510px) {
+  body {
+    overflow: hidden;
+  }
+  .txt1 {
+    display: none;
+  }
+  .txt1 h1 {
+    display: none;
+  }
+}/*# sourceMappingURL=dota.css.map */
